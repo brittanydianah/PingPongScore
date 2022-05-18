@@ -1,0 +1,56 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+#scoreKeeper {
+    display: flex;
+    flex-direction: column;
+    max-width: 370px;
+}
+
+#pingpong {
+    max-height: 240px;
+    max-width: 370px;
+}
+
+#scores div, #players div {
+    display: inline-block;
+}
+
+.sections {
+    border: 1px solid #555;
+    border-top: none;
+}
+
+#currentScore {
+    /* display: flex;
+    justify-content: center; */
+    font-size: 30px;
+}
+
+#players {
+    display: flex;
+    width: 370px;
+    justify-content: space-evenly;
+    text-align: center;
+    margin: 0 auto;
+    border-top: 1px solid #555;
+    border-bottom: 1px solid #555;
+}
+
+button {
+    width: 300px;
+}
+
+#player1 {
+    background-color: teal;
+}
+
+#player2 {
+    background-color: rgba(0, 0, 255, 0.63);
+}
+
+#reset {
+    background-color: rgba(255, 0, 0, 0.562);
+}
